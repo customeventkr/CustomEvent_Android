@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Banner"
+        android:textSize="30sp" />
+
+    <!-- Adam Banner 광고 호출을 위한 버튼 -->
+    <Button
+        android:id="@+id/AdamBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="requestBanner"
+        android:text="Adam" 
+        />
+
+    <!-- Cauly Banner 광고 호출을 위한 버튼 -->
+    <Button
+        android:id="@+id/CaulyBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="requestBanner"
+        android:text="Cauly" 
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Interstitial"
+        android:textSize="30sp" 
+        android:layout_marginTop="20dp"
+        />
+
+    <!-- Adam Interstitial 광고 호출을 위한 버튼 -->
+    <Button
+        android:id="@+id/AdamInterstitial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="requestInterstitial"
+        android:text="Adam"
+         />
+
+    <!-- Cauly Interstitial 광고 호출을 위한 버튼 -->
+    <Button
+        android:id="@+id/CaulyInterstitial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="requestInterstitial"
+        android:text="Cauly" 
+        android:layout_marginBottom="139dp"
+        />
+
+</LinearLayout>

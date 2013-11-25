@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CustomEvent Demo</string>
+    <string name="Network1">Adam</string>
+    <string name="Network2">Cauly</string>
+</resources>
